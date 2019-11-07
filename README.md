@@ -10,6 +10,9 @@ run "npm start"
 get this url on browseer 
 http://localhost:3000/api/getBMI?height=68&weight=180.779
 
+# use it from heroku
+https://bmi-calculator-api.herokuapp.com/api/getBMI?height=68&weight=180.779
+
 
 
 
