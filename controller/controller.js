@@ -6,7 +6,7 @@ module.exports = {
         weight = 703 * weight;
         console.log(weight, height);
         let bmi = weight / (height * height);
-        bmi = bmi.toString();
+        bmi = bmi.toFixed(2).toString();
         res.send(bmi);
 
     }
